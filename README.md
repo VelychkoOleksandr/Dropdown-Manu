@@ -1,2 +1,2 @@
 # Dropdown-Menu
-Pure HTML/CSS dropdown manu
+Pure HTML/CSS dropdown menu
