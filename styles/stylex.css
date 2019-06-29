@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-color: #161B21;
+    --border-color: #808080;
+    --hover-color: #808080;
+}
+
+.dropdown-manu {
+    width: 45%;
+    margin: 100px auto;
+    
+}
+
+.dropdown-manu > ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.dropdown-manu > ul li {
+    display: block;
+    text-transform: uppercase;
+
+    width: 150px;
+    
+}
+
+.dropdown-manu > ul li a {
+    text-decoration: none;
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 640;
+    color: var(--font-color);
+
+    border-right: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+    padding: 0 10px;
+}
+
+.dropdown-manu > ul li a:hover {
+    background-color: var(--hover-color);
+    color: white;
+
+}
+
+.carlist {
+    position: absolute;
+    display: none;
+    font-family: 'EB Garamond', serif;
+    font-weight: 590;
+}
+
+.carlist > li {
+    margin-top: 10px; 
+    font-size: 18px;
+    padding-left: 5px; 
+}
+
+.carlist > li:hover {
+   color: white;
+   background: rgb(78, 70, 70);
+   border: 1px solid rgb(151, 87, 87);
+   padding-left: 10px; 
+   transition: 0.3s all;
+}
+
+.dropdown-manu > ul li:hover .carlist {
+    display: block;
+}
+
+
+
